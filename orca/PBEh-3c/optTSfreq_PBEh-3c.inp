@@ -1,0 +1,14 @@
+! PBEh-3c Grid4 NoFinalGrid
+! OptTS Freq TightSCF 
+
+%geom
+Calc_Hess true
+Recalc_Hess 5
+end
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1
+*

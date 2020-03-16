@@ -1,0 +1,8 @@
+! DLPNO-CCSD(T) NoUseSym def2-QZVP def2-QZVPP/C tightscf
+
+%MaxCore 4400
+%pal nprocs=6
+end
+
+* xyz 0 1
+*

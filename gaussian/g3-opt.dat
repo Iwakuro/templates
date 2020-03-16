@@ -1,0 +1,10 @@
+%chk=g3-opt.chk
+%NProcShared=12
+%mem=10000mb
+
+# G3 SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb NoSymm
+
+ full G3 method  
+
+0 1
+

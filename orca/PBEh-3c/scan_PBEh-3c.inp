@@ -1,0 +1,14 @@
+! PBEh-3c Grid4 NoFinalGrid NoUseSym
+! Opt TightSCF 
+
+%geom Scan
+B 0 1 = start, end, number
+end
+end
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1
+*

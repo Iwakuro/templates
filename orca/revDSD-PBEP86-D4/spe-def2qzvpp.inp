@@ -1,0 +1,30 @@
+!  RKS def2-QZVPP def2-QZVPP/c def2/JK TIGHTSCF RIJK GRID6 FINALGrid7 NoPOP d4
+
+%method
+FrozenCore FC_ELECTRONS
+ Exchange X_PBE
+ Correlation C_P86
+ScalHFX 0.69
+ScalDFX 0.31
+ScalGGAC 0.4210
+ScalLDAC 0.4210
+ ScalMP2C 1.0
+ D3S6 0.5132
+ D3A2 3.6
+ D3S8 0.0
+ D3A1 0.44
+end
+
+%mp2 
+RI on
+DoSCS true
+ PS 0.5922
+ PT 0.0636
+end
+
+%MaxCore 2500
+%pal nprocs=8
+end
+
+* xyz 0 1
+*

@@ -1,0 +1,24 @@
+! DLPNO-MP2 def2-SVP def2-SVP/C FrozenCore NoUseSym
+! RIJCOSX def2/J
+! NumFreq TightSCF SCFConvForced 
+
+# consider at least GridX4 or preferably larger
+%method
+	IntaccX 3.34,4.01,4.67 # =GridX4, try 4.01,4.01,4.34 for large/diffuse basis sets
+	GridX 1,1,3 # =GridX4, default GridXS2 1,1,2
+end
+
+# details of the numerical frequency calculation
+%freq
+        CentralDiff true # default
+        Increment 0.005 # in bohr, try 0.001 if affordable
+        #Restart true
+        #requires a .hess file to be present
+end
+
+%MaxCore 4200
+%pal nprocs=6
+end
+
+* xyz 0 1
+*

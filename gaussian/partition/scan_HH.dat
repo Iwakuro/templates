@@ -1,0 +1,7 @@
+%NProcShared=12
+%mem=10000mb
+# PBEPBE/Def2SVP/W06 Opt=(MaxCyc=50,ModRedundant) SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb EmpiricalDispersion=GD3BJ NoSymm DensityFit
+
+ title 
+
+0 1

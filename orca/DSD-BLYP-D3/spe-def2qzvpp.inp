@@ -1,0 +1,27 @@
+! RIJK D3BJ B3LYP def2-QZVPP def2-QZVPP/C def2/JK TIGHTSCF Grid5 FINALGrid7
+
+%method
+FrozenCore FC_ELECTRONS
+D3S6 0.5
+D3A1 0.0
+D3S8 0.2130
+D3A2 6.0519
+ScalHFX = 0.70
+ScalDFX = 0.30
+ScalGGAC = 0.56
+ScalLDAC = 0.56
+ScalMP2C = 1.0
+end
+%mp2 
+RI on
+DoSCS true
+Ps 0.46
+Pt 0.40
+end
+
+%MaxCore 4000
+%pal nprocs=8
+end
+
+* xyz 0 1
+*

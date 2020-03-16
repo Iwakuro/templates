@@ -1,0 +1,9 @@
+! PBEh-3c Grid4 NoFinalGrid
+! Opt Freq TightSCF 
+
+%MaxCore 2000
+%pal nprocs=4
+end
+
+* xyz 0 1
+*

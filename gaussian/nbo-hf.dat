@@ -1,0 +1,13 @@
+%chk=nbo-hf.chk
+%NProcShared=12
+%mem=10000mb
+
+# HF/Def2TZVP SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb NoSymm Pop=(NBORead) Density=Current
+
+ Natural Bond Orbital Analysis at HF level (NBO3)  
+
+0 1
+
+$nbo bndidx resonance $end
+
+

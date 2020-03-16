@@ -1,0 +1,10 @@
+%chk=g3-spe.chk
+%NProcShared=12
+%mem=10000mb
+
+# G3=SP SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb NoSymm
+
+ G3 method SPE only 
+
+0 1
+

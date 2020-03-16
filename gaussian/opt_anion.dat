@@ -1,0 +1,7 @@
+%NProcShared=12
+%mem=10000mb
+# PBE1PBE/Def2SVP Opt=(MaxCyc=100,ModRedundant) Freq=NoRaman SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb EmpiricalDispersion=GD3BJ NoSymm
+
+ title 
+
+-1 1

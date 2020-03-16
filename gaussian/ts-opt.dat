@@ -1,0 +1,8 @@
+%chk=TS.chk
+%NProcShared=12
+%mem=10000mb
+# PBE1PBE/Def2SVP Opt=(TS,CalcFC,NoEigenTest,ModRedundant,MaxCyc=100) Freq=NoRaman SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb EmpiricalDispersion=GD3BJ NoSymm
+
+ title 
+
+0 1

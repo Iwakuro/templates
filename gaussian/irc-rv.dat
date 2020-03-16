@@ -1,0 +1,7 @@
+%oldchk=.chk
+%NProcShared=12
+%mem=10000mb
+# PBE1PBE/Def2SVP Geom=AllCheck IRC=(Report=Read,RCFC,RecalcFC=(Predictor=2,Corrector=1),Reverse,HPC,StepSize=20,MaxPoints=500,Phase=(2,3),MaxCyc=100) SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb EmpiricalDispersion=GD3BJ NoSymm
+
+2 3
+

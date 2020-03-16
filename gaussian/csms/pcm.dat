@@ -1,0 +1,7 @@
+%NProcShared=4
+%mem=10000mb
+#p PBE1PBE/Def2SVP SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb EmpiricalDispersion=GD3BJ SCRF=(solvent=water,PCM,Read)
+
+ title 
+
+0 1

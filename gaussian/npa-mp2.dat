@@ -1,0 +1,12 @@
+%chk=npa-mp2.chk
+%NProcShared=12
+%mem=10000mb
+
+# MP2/Def2TZVP SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb NoSymm Pop=(NPA) Density=Current
+
+ Natural Population Analysis at MP2 level (NBO3)   
+
+0 1
+
+
+

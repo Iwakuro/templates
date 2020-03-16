@@ -1,0 +1,23 @@
+%chk=nbo-cat.chk
+%NProcShared=12
+%mem=10000mb
+
+# HF/Def2TZVP SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb NoSymm Pop=(NBORead) Density=Current
+
+ Natural Bond Orbital Analysis at HF level followed by MP2 level (NBO3)  
+
+1 1
+
+$nbo bndidx resonance $end
+
+--Link1--
+
+%chk=nbo-cat.chk
+%NProcShared=12
+%mem=10000mb
+
+# MP2/Def2TZVP Geom=AllCheck Guess=Read SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb NoSymm Pop=(NBORead) Density=Current
+
+$nbo bndidx resonance $end
+
+

@@ -1,0 +1,10 @@
+%chk=w1-opt.chk
+%NProcShared=12
+%mem=10000mb
+
+# W1U SCF=Tight Int(Grid=Ultrafine) MaxDisk=100gb
+
+ full W1 method  
+
+0 1
+

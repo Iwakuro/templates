@@ -1,0 +1,44 @@
+! RIJCOSX B2PLYP D3BJ def2-TZVP def2-TZVP/C def2/J TIGHTSCF Grid5 FinalGrid6
+! NumFreq
+
+%method
+        IntaccX 3.34,4.01,4.67 # =GridX4, try 4.01,4.01,4.34 for large/diffuse basis sets
+        GridX 1,1,3 # =GridX4, default GridXS2 1,1,2
+FrozenCore FC_ELECTRONS
+Exchange x_PBE
+Correlation c_P86
+LDAOpt C_VWN5
+ScalHFX 0.69
+ScalDFX 0.31
+ScalGGAC 0.44
+ScalLDAC 0.44
+ScalMP2C 1.00
+end
+
+%method
+D3S6 0.48
+D3A1 0.0
+D3S8 0.0
+D3A2 5.6
+end
+%mp2
+RI on
+DoSCS True
+Ps 0.52
+Pt 0.22
+end
+
+# details of the numerical frequency calculation
+%freq
+        CentralDiff true # default
+        Increment 0.005 # in bohr, try 0.001 if affordable
+        #Restart true
+        #requires a .hess file to be present
+end
+
+%MaxCore 4400
+%pal nprocs=6
+end
+
+* xyz 0 1
+*
