@@ -3,7 +3,7 @@
 
 %geom
 Calc_Hess true
-Recalc_Hess 5
+Recalc_Hess 10
 end
 
 %MaxCore 2000
@@ -11,4 +11,3 @@ end
 end
 
 * xyz 0 1
-*

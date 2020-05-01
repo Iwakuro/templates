@@ -1,4 +1,4 @@
-!  RKS def2-QZVPP def2-QZVPP/c def2/JK TIGHTSCF RIJK GRID6 FINALGrid7 NoPOP d4
+!  RKS def2-TZVP def2-TZVP/c def2/J D4 RIJCOSX GRID6 NoFinalGrid TightSCF NoPOP 
 
 %method
 FrozenCore FC_ELECTRONS
@@ -23,8 +23,7 @@ DoSCS true
 end
 
 %MaxCore 2500
-%pal nprocs=8
+%pal nprocs=9
 end
 
 * xyz 0 1
-*

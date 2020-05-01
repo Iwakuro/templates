@@ -1,0 +1,15 @@
+! RI-MP2 RHF def2-TZVP def2-TZVP/C
+! TightSCF
+! TightOpt Freq
+
+%scf
+        TolE    1e-8    # energy change between two cycles, default TightSCF 1e-8, default Gaussian TightSCF 1e-6
+        TolRMSP 5e-9    # RMS density change, default TightSCF 5e-9, default Gaussian TightSCF 1e-8
+        TolMaxP 1e-7    # maximum density change, default TightSCF 1e-7, default Gaussian TightSCF 1e-6
+end
+
+%MaxCore 2000
+%pal nprocs=4
+end
+
+* xyz 0 1
