@@ -22,7 +22,7 @@ DoSCS true
  PT 0.0636
 end
 
-%MaxCore 2500
+%MaxCore 4000
 %pal nprocs=8
 end
 
