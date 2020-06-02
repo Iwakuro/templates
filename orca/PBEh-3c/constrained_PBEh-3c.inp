@@ -8,8 +8,7 @@ end
 end
 
 %MaxCore 2000
-%pal nprocs=6
+%pal nprocs=4
 end
 
 * xyz 0 1
-*

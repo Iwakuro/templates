@@ -23,7 +23,7 @@ DoSCS true
 end
 
 %MaxCore 5760
-%pal nprocs=10
+%pal nprocs=9
 end
 
 * xyz 0 1
