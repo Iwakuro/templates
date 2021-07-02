@@ -1,0 +1,13 @@
+! PBEh-3c Grid4 NoFinalGrid
+! Freq IRC TightSCF 
+
+%irc
+ MaxIter 20
+ Direction backward
+end
+
+%MaxCore 2000
+%pal nprocs=24
+end
+
+* xyz 0 1
