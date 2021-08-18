@@ -1,0 +1,8 @@
+! PBEh-3c defgrid2
+! Opt Freq TightSCF 
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1

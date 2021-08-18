@@ -1,0 +1,7 @@
+%NProcShared=6
+%mem=10000mb
+# PBE1PBE/Def2QZVPP Pop=(Full,Orbitals=5) SCF=Tight Int(Grid=Ultrafine) GFINPUT
+
+ title 
+
+0 1

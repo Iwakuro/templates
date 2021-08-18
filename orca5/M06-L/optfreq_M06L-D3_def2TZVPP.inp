@@ -1,0 +1,9 @@
+! RI M06L D3zero def2-TZVPP def2/J
+! TightSCF defgrid2
+! Opt Freq
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1
