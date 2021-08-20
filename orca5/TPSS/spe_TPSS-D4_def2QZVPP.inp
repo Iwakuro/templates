@@ -1,0 +1,8 @@
+! RI TPSS D4 def2-QZVPP def2/J
+! TightSCF defgrid2
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1
