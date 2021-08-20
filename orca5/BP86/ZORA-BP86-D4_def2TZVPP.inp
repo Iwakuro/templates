@@ -1,0 +1,9 @@
+! RI BP86 ZORA D4 ZORA-def2-TZVPP SARC/J
+! TightSCF defgrid2
+! Opt Freq
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1

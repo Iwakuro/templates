@@ -1,4 +1,4 @@
-! PBE0 D4 def2-TZVPP def2/J
+! RI TPSS ZORA D4 ZORA-def2-TZVPP SARC/J
 ! TightSCF defgrid2
 ! Opt Freq
 
