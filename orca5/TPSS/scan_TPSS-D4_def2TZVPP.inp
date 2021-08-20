@@ -1,0 +1,14 @@
+! RI TPSS D4 def2-TZVPP def2/J
+! TightSCF defgrid2
+! Opt
+
+%geom Scan
+B 0 1 = start, end, number
+end
+end
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1
