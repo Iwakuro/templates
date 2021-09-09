@@ -1,0 +1,24 @@
+! UNO UCO
+! RIJCOSX TPSSh D4 def2-QZVPP def2/J SmallPrint
+! TightSCF defgrid2
+
+%base"spe_TPSSh-D4_def2QZVPP_rijcosx"
+%MaxCore 2000
+%pal nprocs=12
+end
+
+* xyz 0 2
+*
+
+$new_job
+! UNO UCO RIJCOSX TPSSh D4 def2-QZVPP def2/J SmallPrint TightSCF defgrid2 NoIter MOREAD
+
+%base"qro_TPSSh-D4_def2QZVPP_rijcosx"
+%moinp "spe_TPSSh-D4_def2QZVPP_rijcosx.qro"
+%output
+Print[P_Basis]2
+Print[P_MOs]1
+end
+
+* xyz 0 2
+*
