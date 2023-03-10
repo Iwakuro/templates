@@ -1,0 +1,13 @@
+! PBEh-3c defgrid2
+! Freq IRC TightSCF 
+
+%irc
+ MaxIter 100
+ Direction forward
+end
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1

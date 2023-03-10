@@ -1,6 +1,10 @@
 ! PBEh-3c Grid4 NoFinalGrid
 ! Freq TightSCF 
 
+%freq
+Temp 298.15
+end
+
 %MaxCore 2000
 %pal nprocs=4
 end

@@ -1,0 +1,13 @@
+! RIJCOSX TPSSh D4 def2-QZVPP def2/J SmallPrint
+! TightSCF defgrid2
+
+%output
+Print[P_Basis]2
+Print[P_MOs]1
+end
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1
