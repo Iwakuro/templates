@@ -23,6 +23,11 @@ DoSCS true
  PT 0.0636
 end
 
+%eprnmr
+Nuclei = all C { shift }
+Nuclei = all H { shift }
+end
+
 %MaxCore 4000
 %pal nprocs=6
 end
