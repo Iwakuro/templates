@@ -1,0 +1,12 @@
+! RIJCOSX PBE0 def2-QZVPP def2/J
+! TightSCF defgrid2
+
+%nbo
+NBOKEYLIST    = "$NBO NBO NPA AONBO=C ARCHIVE BNDIDX $END"
+end
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1

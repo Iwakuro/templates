@@ -1,0 +1,15 @@
+! PBE0 def2-QZVPP RIJCOSX def2/J
+! NMR TightSCF defgrid2
+
+%eprnmr
+Nuclei = 1 { shift }
+Nuclei = 2 { shift }
+end
+
+%MaxCore 4000
+%pal nprocs=6
+end
+
+* xyz 0 1
+H:        0.000000000      0.000000000      0.000000000 NewGTO S 1 1 1e6 1 end NewAuxJGTO S 1 1 2e6 1 end
+H:        0.000000000      0.000000000      1.000000000 NewGTO S 1 1 1e6 1 end NewAuxJGTO S 1 1 2e6 1 end
