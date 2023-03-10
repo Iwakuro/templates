@@ -1,0 +1,14 @@
+! PBEh-3c defgrid2
+! Opt TightSCF 
+
+%geom
+Constraints
+{B X Y C}
+end
+end
+
+%MaxCore 2000
+%pal nprocs=6
+end
+
+* xyz 0 1
