@@ -1,0 +1,7 @@
+! DLPNO-CCSD(T) Extrapolate(3/4,aug-cc) aug-cc-pVQZ/C tightscf LoosePNO
+
+%MaxCore 5760
+%pal nprocs=6
+end
+
+* xyz 0 1
